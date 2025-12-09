@@ -90,7 +90,7 @@ export default function EditTeacherDialog({
   <div className="flex flex-col gap-1">
     <Label className="text-slate-300">Enrollment Date</Label>
     <Input
-      name="enrollmentDate"
+      name="specialization"
       value={form.specialization}
       onChange={handleChange}
       className="bg-slate-800 text-white border-slate-600"

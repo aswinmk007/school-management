@@ -85,7 +85,7 @@ export default function AddteacherDialog({ open, onClose, onSave }: Props) {
 
           <div>
             <Label>specialization</Label>
-            <Input type="text" name="enrollmentDate" value={form.specialization} onChange={handleChange} />
+            <Input type="text" name="specialization" value={form.specialization} onChange={handleChange} />
           </div>
 
           <Button
